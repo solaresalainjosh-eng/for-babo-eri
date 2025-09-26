@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: pink url('pink.webp') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: #d63384;
+}
+
+.container {
+    margin-top: 100px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff1493;
+    transform: scale(1.1);
+}
+
+#messageBox {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffe4f0;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+}
+
+.kitty-img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.hidden {
+    display: none;
+}
